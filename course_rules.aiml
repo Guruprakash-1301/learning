@@ -1,0 +1,50 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- Beginner Level -->
+  <category><pattern>BEGINNER AI VIDEO</pattern><template>AI Basics - Coursera</template></category>
+  <category><pattern>BEGINNER AI THEORY</pattern><template>Introduction to AI Concepts - edX</template></category>
+  <category><pattern>BEGINNER AI HANDS ON</pattern><template>AI for Everyone (Hands-on) - Udacity</template></category>
+
+  <category><pattern>BEGINNER DATA SCIENCE VIDEO</pattern><template>Intro to Data Science - Coursera</template></category>
+  <category><pattern>BEGINNER DATA SCIENCE THEORY</pattern><template>Data Science Fundamentals - edX</template></category>
+  <category><pattern>BEGINNER DATA SCIENCE HANDS ON</pattern><template>Data Science with Python (Project-based) - Coursera</template></category>
+
+  <category><pattern>BEGINNER WEB VIDEO</pattern><template>Web Development for Beginners - Udemy</template></category>
+  <category><pattern>BEGINNER WEB THEORY</pattern><template>Basics of Web Architecture - YouTube</template></category>
+  <category><pattern>BEGINNER WEB HANDS ON</pattern><template>Build Your First Website - freeCodeCamp</template></category>
+
+  <!-- Intermediate Level -->
+  <category><pattern>INTERMEDIATE AI VIDEO</pattern><template>AI Intermediate Concepts - Udacity</template></category>
+  <category><pattern>INTERMEDIATE AI THEORY</pattern><template>Machine Learning Theory - Coursera</template></category>
+  <category><pattern>INTERMEDIATE AI HANDS ON</pattern><template>AI Programming with Python - Udacity</template></category>
+
+  <category><pattern>INTERMEDIATE DATA SCIENCE VIDEO</pattern><template>Applied Data Science - Coursera</template></category>
+  <category><pattern>INTERMEDIATE DATA SCIENCE THEORY</pattern><template>Data Science Methodologies - IBM</template></category>
+  <category><pattern>INTERMEDIATE DATA SCIENCE HANDS ON</pattern><template>Data Science Bootcamp - Springboard</template></category>
+
+  <category><pattern>INTERMEDIATE WEB VIDEO</pattern><template>Intermediate Web Projects - Udemy</template></category>
+  <category><pattern>INTERMEDIATE WEB THEORY</pattern><template>Web App Architecture - Pluralsight</template></category>
+  <category><pattern>INTERMEDIATE WEB HANDS ON</pattern><template>Full Stack Web Development - freeCodeCamp</template></category>
+
+  <!-- Advanced Level -->
+  <category><pattern>ADVANCED AI VIDEO</pattern><template>Deep Learning Specialization - Coursera</template></category>
+  <category><pattern>ADVANCED AI THEORY</pattern><template>Advanced Machine Learning Theory - MIT</template></category>
+  <category><pattern>ADVANCED AI HANDS ON</pattern><template>AI Engineer Nanodegree - Udacity</template></category>
+
+  <category><pattern>ADVANCED DATA SCIENCE VIDEO</pattern><template>Advanced Data Science with TensorFlow - Coursera</template></category>
+  <category><pattern>ADVANCED DATA SCIENCE THEORY</pattern><template>Big Data and AI - Stanford</template></category>
+  <category><pattern>ADVANCED DATA SCIENCE HANDS ON</pattern><template>Data Science Capstone Projects - HarvardX</template></category>
+
+  <category><pattern>ADVANCED WEB VIDEO</pattern><template>Modern Web Dev Masterclass - Udemy</template></category>
+  <category><pattern>ADVANCED WEB THEORY</pattern><template>Advanced Web Architecture - edX</template></category>
+  <category><pattern>ADVANCED WEB HANDS ON</pattern><template>Progressive Web Apps (Hands-on) - Google</template></category>
+
+  <!-- Fallback -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Sorry, I don't have a course recommendation for that combination yet.
+    </template>
+  </category>
+
+</aiml>
